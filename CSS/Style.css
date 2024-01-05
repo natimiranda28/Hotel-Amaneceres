@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fuente1|Fuente2');
 
+/* Colores */
+
 body {
     font-family: 'font-family: 'EB Garamond', serif;', sans-serif;
     background-color: rgb(246,237,228);
@@ -8,3 +10,6 @@ body {
 h1 {
     font-family: 'font-family: 'EB Garamond', serif;', sans-serif;
 }
+
+/* ----------------------------------------------------------- */
+
