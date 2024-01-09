@@ -3,16 +3,15 @@
 /* Colores */
 
 body {
-    font-family: 'font-family: 'EB Garamond', serif;', sans-serif;
+    font-family: 'EB Garamond', serif;
     background-color: rgb(246,237,228);
 }
 
 h1 {
-    font-family: 'font-family: 'EB Garamond', serif;', sans-serif;
+    font-family: 'EB Garamond', serif;
 }
 
 /* ----------------------------------------------------------- */
-
 
 iframe {
     width: 500px;
@@ -20,8 +19,14 @@ iframe {
     border: 0;
 }
 
-img_ex{
-    width: 400px;
-    height: 256px;
-    border: 0;
+.contenedor_carr {
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.contenedor_carr img {
+    width: 100%;
+    height: auto;
 }
