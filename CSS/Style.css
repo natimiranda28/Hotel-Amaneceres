@@ -30,3 +30,20 @@ iframe {
     width: 100%;
     height: auto;
 }
+
+.whatsapp-boton {
+
+
+    padding: 30px 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    background-image: url('../images/gratis-png-whatsapp-thumbnail.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 30px;
+  }
+  
