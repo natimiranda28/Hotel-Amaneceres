@@ -17,7 +17,7 @@ app.post('/api/contacto', (req, res) => {
     const { name, email, message } = req.body;
     console.log('Mensaje recibido:', name, email, message);
     
-    // Aquí podrías guardar en un archivo, enviar un mail, etc.
+    
     res.json({ message: '¡Gracias por tu mensaje, ' + name + '!' });
 });
 
@@ -25,3 +25,7 @@ app.post('/api/contacto', (req, res) => {
 app.listen(PORT, () => {
     console.log(`Servidor corriendo en http://localhost:${PORT}`);
 });
+
+
+
+
